@@ -1,20 +1,21 @@
-Flexible Calculator
-A simple calculator console application that takes in mathematical expressions and evaluates them.
+# Flexible Calculator
+ A simple calculator console application that takes in mathematical expressions and evaluates them.
 
-Features:
+### Features:
     Supports basic arithmetic operations: addition, subtraction, multiplication, and division
     Allows user to quit by typing "quit"
 
-Requirements:
+### Requirements:
     Java 21 or later
     Gradle for building and dependencies management
 
-Usage:
-    Build the project using gradle build
-    Run the project using  gradle -q --console plain run
+### Usage:
+```
+    Build the project using:  gradle build
+    Run the project using:  gradle -q --console plain run
     Enter mathematical expressions to evaluate, or type "quit" to exit
-
-Design:
+```
+### Design:
     Modular Architecture: The application is divided into separate modules for input handling and  calculation
         DefaultCalculator implements Calculator interface for calculation logic
         CalculatorConsole handles input and output for the console application
@@ -29,10 +30,10 @@ Design:
 
 
 
-Note:
+### Note:
     Currently, only a single operation can be performed per expression. 
 
-Testing
+### Testing
     Run tests using gradle test    
 
 
