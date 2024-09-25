@@ -9,12 +9,25 @@
     Java 21 or later
     Gradle for building and dependencies management
 
-### Usage:
+### Basic Usage:
 ```
     Build the project using:  gradle build
     Run the project using:  gradle -q --console plain run
     Enter mathematical expressions to evaluate, or type "quit" to exit
 ```
+    Start with a number and operation in a new line (e.g., "2 + 3")
+    Or, enter a mathematical expression (e.g., "2 + 3 * 4")
+    Commands
+    help: Display this help menu
+    quit: Exit the calculator
+    Example Usage
+    Enter: 2
+    Enter: + 
+    Enter 3
+    Output: 5
+    Enter: 2 * 10 + 3
+    Output: 23
+
 ### Design:
     Modular Architecture: The application is divided into separate modules for input handling and  calculation
         DefaultCalculator implements Calculator interface for calculation logic
